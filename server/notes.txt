@@ -1,0 +1,6 @@
+To generate the public and private keys:
+$ sudo npm install -g web-push
+$ web-push generate-vapid-keys
+
+Keep both keys on the server.
+But keep only the public key on the client.
